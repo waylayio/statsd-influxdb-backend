@@ -1,6 +1,6 @@
 PROJECT_ID=quiet-mechanic-140114
 IMAGE_NAME=waylay-statsd
-VERSION=1.0.0
+VERSION=1.0.1
 PROJECT=eu.gcr.io/${PROJECT_ID}
 
 all: build
