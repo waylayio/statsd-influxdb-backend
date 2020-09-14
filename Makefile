@@ -9,6 +9,6 @@ build:
 	docker build -t ${PROJECT}/${IMAGE_NAME}:${VERSION} .
 
 publish:
-	gcloud docker -- push ${PROJECT}/${IMAGE_NAME}:${VERSION}
+	docker -- push ${PROJECT}/${IMAGE_NAME}:${VERSION}
 
 .PHONY: all build publish
